@@ -1,0 +1,20 @@
+export type Urls = {
+  HOME: string;
+  NEWS: string;
+  MARKET_REVIEWS: string;
+  SPORT_EVENTS: string;
+  ACTIVITY: string;
+  ADD_EVENT: string;
+  BLOCKED_SERVICES: string;
+  SPORTSWIDGET: string;
+  EVENTSWIDGET: string;
+  PROMOCODES: string;
+  PROMOCODES_OPERATORS: string;
+  PROMOCODES_AFFILIATES: string;
+  PROMOCODE_ADD: string;
+  GLOSSARY: string;
+  IGAMING_JOB: string;
+  ADD_VACANCY: string;
+  COMPANIES: string;
+  COMPANIES_ADD: string;
+};
