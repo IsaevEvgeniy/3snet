@@ -54,8 +54,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git reset --hard HEAD
           git pull origin main --rebase
-          mkdir -p docs
+          mkdir -p docs docs/allure
           cp -r playwright-report/. docs/
+          cp -r allure-report/. docs/allure/
           touch docs/.nojekyll
           git add docs/
           git diff --staged --quiet || git commit -m "chore: update playwright report [skip ci]"
